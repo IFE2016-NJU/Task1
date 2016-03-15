@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>task8</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        box-sizing: border-box;
+    }
+    .container:after {
+        clear: both;
+    }
+
+    [class*="col-"] {
+        box-sizing: border-box;
+        float: left;
+        padding: 10px;
+    }
+
+    .item {
+        background: #eee;
+        border: 1px solid #999;
+        height: 50px;
+    }
+
+    @media (min-width: 768px) {
+        .col-md-1 {
+            width: 8.33333333%;
+        }
+        .col-md-2 {
+            width: 16.66666667%;
+        }
+        .col-md-3 {
+            width: 25%;
+        }
+        .col-md-4 {
+            width: 33.33333333%;
+        }
+        .col-md-6 {
+            width: 50%;
+        }
+        .col-md-12 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .col-sm-1 {
+            width: 8.33333333%;
+        }
+        .col-sm-2 {
+            width: 16.66666667%;
+        }
+        .col-sm-3 {
+            width: 25%;
+        }
+        .col-sm-4 {
+            width: 33.33333333%;
+        }
+        .col-sm-6 {
+            width: 50%;
+        }
+        .col-sm-8 {
+            width: 66.66666667%;
+        }
+        .col-sm-12 {
+            width: 100%;
+        }
+    }
+    </style>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-4 col-sm-6">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-1 col-sm-2">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-1 col-sm-2">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-2 col-sm-8">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-2 col-sm-3">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-6 col-sm-3">
+            <div class="item"></div>
+        </div>
+    </div>
+</body>
+</html>

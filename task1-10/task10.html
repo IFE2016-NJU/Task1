@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>task10</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+    body {
+        margin: 0;
+    }
+    .container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .item {
+        border: solid 1px #f00;
+        margin-bottom: 20px; /*为了第二张图的效果*/
+        width: 150px;
+    }
+    .item1 {
+        height: 120px;
+    }
+    .item2 {
+        height: 100px;
+    }
+    .item3 {
+        height: 40px;
+    }
+    .item4 {
+        border-color: #0f0;
+        height: 200px;
+    }
+    @media screen and (max-width: 640px) {
+        .container {
+            flex-wrap: wrap;
+        }
+        .item4 {
+            order: -1;
+        }
+    }
+    </style>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+    </div>
+</body>
+</html>
