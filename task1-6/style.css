@@ -232,6 +232,16 @@ li {
     font-family: 'SimSun';
     color: #767777;
     line-height: 16px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.content-detail p {
+    text-indent: 2em;
+}
+
+.content-detail p:first-child {
+    text-indent: 0;
 }
 
 .content-detail .big {
@@ -239,6 +249,12 @@ li {
     font-size: 70px;
     font-family: 'YaHei';
     color: #f5e327;
+    line-height: 1em;
+}
+
+.content-detail-img {
+    float: right;
+    margin: 5px;
 }
 
 .content-right {
@@ -359,8 +375,7 @@ li {
     float: left;
 }
 
-
-.catalog-bottom .red-content-detail{
+.catalog-bottom .red-content-detail {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -368,14 +383,16 @@ li {
     right: 0px;
     width: 250px;
     height: 120px;
-    margin : auto;
+    margin: auto;
 }
-.catalog-bottom .big-number{
+
+.catalog-bottom .big-number {
     font-size: 110px;
     line-height: 110px;
     float: left;
 }
-.catalog-bottom .right-letter{
+
+.catalog-bottom .right-letter {
     height: 86px;
     width: 170px;
     float: left;
@@ -383,50 +400,63 @@ li {
     border-left: 2px solid #fff;
     padding-left: 5px;
 }
-.catalog-bottom .big-letter{
+
+.catalog-bottom .big-letter {
     font-size: 21px;
     font-family: "SimHei";
     font-style: italic;
     font-weight: bold;
     line-height: 24px;
 }
-.catalog-bottom .small-letter{
+
+.catalog-bottom .small-letter {
     font-size: 12px;
     font-family: "SimHei";
     padding-left: 3px;
 }
+
 .catalog-bottom .right-content {
     width: 40%;
     float: left;
     height: 200px;
     font-size: 14px;
-    color:#5a5b5b;
+    color: #5a5b5b;
     font-family: "SimHei";
     font-style: italic;
     line-height: 16px;
     position: relative;
 }
-.catalog-bottom .right-content p{
+
+.catalog-bottom .right-content p {
     position: absolute;
     text-indent: 3em;
     top: 15px;
     left: 7px;
 }
+
 .catalog-bottom .left-quotes,
-.catalog-bottom .right-quotes{
+.catalog-bottom .right-quotes {
     font-size: 72px;
-    color:#d45d5c;
+    color: #d45d5c;
     position: absolute;
 }
-.catalog-bottom .left-quotes{
+
+.catalog-bottom .left-quotes {
     top: 30px;
     left: -40px;
 }
-.catalog-bottom .right-quotes{
+
+.catalog-bottom .right-quotes {
     top: 140px;
     left: 120px;
 }
+
 .footer {
-    height: 50px;
     border-top: 1px solid #938e8c;
+}
+.footer p{
+        float: right;
+        color:#d45d5c;
+        font-family: "SimHei";
+
 }
