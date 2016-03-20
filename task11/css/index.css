@@ -12,14 +12,6 @@ ul {
     list-style: none;
 }
 
-.flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-}
-
 #header {
     height: 44px;
     text-align: center;
