@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 html {
     font-family: "Helvetica";
     font-size: 10px;
@@ -28,7 +33,7 @@ body {
     position: absolute;
     padding: 0 10px 0 35px;
     font-size: 1.6rem;
-    color:#fff;
+    color: #fff;
 }
 
 .header-back:after,
